@@ -2,27 +2,13 @@
 
 ## Casos de Teste
 
-Teste 1: Adicionar e buscar
-Adiciona um novo produto com ID 3 e descrição "Caneta" à tabela hash.
-Em seguida, busca o produto com ID 3 e imprime sua descrição.
-O resultado esperado é "Caneta".
+Teste 1: Adicionar e buscar - Adiciona um novo produto com ID 3 e descrição "Caneta" à tabela hash. Em seguida, busca o produto com ID 3 e imprime sua descrição. O resultado esperado é "Caneta".
 
-Teste 2: Atualizar
-Adiciona um novo produto com ID 2 e descrição "Papel" à tabela hash.
-Em seguida, atualiza a descrição do produto com ID 2 para "Apontador".
-Busca o produto com ID 2 e imprime sua descrição.
-O resultado esperado é "Apontador".
+Teste 2: Atualizar - Adiciona um novo produto com ID 2 e descrição "Papel" à tabela hash. Em seguida, atualiza a descrição do produto com ID 2 para "Apontador". Busca o produto com ID 2 e imprime sua descrição. O resultado esperado é "Apontador".
 
-Teste 3: Remover
-Antes de remover o produto com ID 3, busca o produto com ID 3 e imprime sua descrição.
-Em seguida, remove o produto com ID 3.
-Depois de remover o produto, busca o produto com ID 3 novamente e imprime sua descrição.
-O resultado esperado antes de remover é "Caneta" e após a remoção é "Produto não encontrado".
+Teste 3: Remover - Antes de remover o produto com ID 3, busca o produto com ID 3 e imprime sua descrição. Em seguida, remove o produto com ID 3. Depois de remover o produto, busca o produto com ID 3 novamente e imprime sua descrição. O resultado esperado antes de remover é "Caneta" e após a remoção é "Produto não encontrado".
 
-Teste 4: Busca inexistente
-Busca o produto com ID 99, que não existe na tabela hash.
-O resultado esperado é "Produto não encontrado".
+Teste 4: Busca inexistente - 
+Busca o produto com ID que não existe na tabela hash. O resultado esperado é "Produto não encontrado".
 
-Teste 5: Tabela Hash
-Imprime a tabela hash, mostrando todos os produtos armazenados em seus respectivos índices.
-Este teste é apenas para verificar a consistência da tabela hash e não tem um resultado esperado específico.
+Teste 5: Tabela Hash -  Imprime a tabela hash, mostrando todos os produtos armazenados em seus respectivos índices. Este teste é apenas para verificar a consistência da tabela hash e não tem um resultado esperado específico.
