@@ -68,7 +68,7 @@ int main() {
     ht.removeProduct(3);
     std::cout << "Teste 3 - Depois de Remover: " << ht.getProduct(3) << std::endl;
     // Teste 4: Busca inexistente
-    std::cout << "Teste 4 - " << ht.getProduct(99) << std::endl;
+    std::cout << "Teste 4 - " << ht.getProduct(15) << std::endl;
     // Teste 5: Tabela Hash
     std::cout << "Teste 5 - Impressão da Tabela: " << std::endl;
     ht.printTable();
